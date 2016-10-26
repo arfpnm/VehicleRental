@@ -6,7 +6,7 @@ import com.ar.vehicle.rental.service.RentalService;
 import com.ar.vehicle.rental.service.RentalServiceImpl;
 
 /**
- * Hello world!
+ * Please ignore this class
  *
  */
 public class App 
