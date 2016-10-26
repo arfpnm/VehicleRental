@@ -26,7 +26,7 @@ You develop a default implementation for the same where data is hard coded. Actu
 Example trip:    Swift, Diesel, NON AC, Pune-Mumbai-Bangalore-Pune, 3 Passengers
 
 -------------------------------------------------
-Changes in input:
+Changes in input and validations:
 
 1) Based on the above requirement, the input from the user must also include the vehicle type, such as car, bus, van. suv..
 This was missing in the input provided. I have included it.
