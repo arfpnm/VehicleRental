@@ -5,7 +5,7 @@ import java.math.BigDecimal;
 import com.ar.vehicle.rental.domain.Vehicle;
 import com.ar.vehicle.rental.repository.DistanceRepository;
 
-public class RentalServiceImpl implements RentalService<Vehicle>{
+public class RentalServiceImpl implements RentalService{
 
 	private final static DistanceRepository distanceRepository = new DistanceRepository();
 	private final static String vBus = "Bus"; 
