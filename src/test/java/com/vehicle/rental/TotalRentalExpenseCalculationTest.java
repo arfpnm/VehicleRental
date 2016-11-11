@@ -65,7 +65,7 @@ public class TotalRentalExpenseCalculationTest {
 	 @Test
 	 public void testCalculateExpenseForPetrolNonAcBusFromMumbaiChennaiBangalorePuneWith47Passengers()
 	    {
-		 RentalService rentalService = new RentalServiceImpl();
+		 RentalService1 rentalService = new RentalServiceImpl();
 			BigDecimal returnValue = rentalService.getTotalExpense("Bus", "Benz", "Petrol", "NON AC", "Mumbai-Chennai-Bangalore-Pune", 47);
 	        assertEquals( BigDecimal.valueOf(37316.150).setScale(3) , returnValue);
 	    }
