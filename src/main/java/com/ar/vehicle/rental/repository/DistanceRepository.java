@@ -15,7 +15,7 @@ public class DistanceRepository {
 	public Double getDistanceInKm(String from, String to){
 		if(from == null || to == null) return null;
 		List<Distance> distanceList = initDistances();
-		Distance distance = distanceList.stream().filter(d -> d.getFrom().equalsIgnoreCase(from) && 
+		Distance1 distance = distanceList.stream().filter(d -> d.getFrom().equalsIgnoreCase(from) && 
 				d.getTo().equalsIgnoreCase(to)).findAny().orElse(null);
 		return distance == null ? 0.0D : distance.getDistance();
 	}
