@@ -76,13 +76,7 @@ public class TotalRentalExpenseCalculationTest {
 			BigDecimal returnValue = rentalService.getTotalExpense("Car", "Polo", "Petrol", "AC", null, 0);
 	        assertEquals( BigDecimal.valueOf(0).setScale(2) , returnValue);
 	    }
-	 @Test
-	 public void testCalculateExpenseWithoutPassingPassengers1()
-	    {
-		 RentalService rentalService = new RentalServiceImpl();
-			BigDecimal returnValue = rentalService.getTotalExpense("Car1", "Polo", "Petrol", "AC", null, 0);
-	        assertEquals( BigDecimal.valueOf(0).setScale(2) , returnValue);
-	    }
+	
 	 @Test
 	 public void testCalculateExpenseByPassingNullarguments()
 	    {
